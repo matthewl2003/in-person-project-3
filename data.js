@@ -5,35 +5,37 @@
 const portfolio = {
     // Personal information object
     owner: {
-        name: "Your Name Here",        // TODO: Add your name
-        title: "Your Title Here",      // TODO: Add your professional title
-        email: "your.email@example.com", // TODO: Add your email
-        location: "Your City, State",  // TODO: Add your location
-        bio: "Write a brief description about yourself here. What are you passionate about? What are your goals?" // TODO: Add your bio
+        name: "Matthew Liang",        // TODO: Add your name
+        title: "Front End Developer",      // TODO: Add your professional title
+        email: "ucberkeley@berkeley.edu", // TODO: Add your email
+        location: "Berkeley, CA",  // TODO: Add your location
+        bio: "This is an in person assignment for INFO153A" // TODO: Add your bio
     },
     
     // Skills as an array
     skills: [
-        "Add your first skill here",   // TODO: Replace with your actual skills
-        "Add your second skill here",  // TODO: Add more skills
-        "Add your third skill here"    // TODO: Students should have at least 5 skills
+        "Front End Development",   // TODO: Replace with your actual skills
+        "General Aviation",  // TODO: Add more skills
+        "Cooking",    // TODO: Students should have at least 5 skills
+        "Driving",
+        "Sleeping"
         // TODO: Add more skills - aim for 5-7 skills total
     ],
     
     // Projects as array of objects
     projects: [
         {
-            title: "Your First Project",
-            description: "Describe what this project does and why it's interesting",
+            title: "Task Manager Creation",
+            description: "Design a webpage of a task manager that lists different task categories and allows users to input them",
             technologies: ["HTML", "CSS"], // Array of technologies used
-            completionDate: "2025-08-15",   // When you completed it
+            completionDate: "2026-09-25",   // When you completed it
             featured: true                   // Is this a featured project?
         },
         {
-            title: "Your Second Project", 
-            description: "Another project description here",
+            title: "Technical Document Creation", 
+            description: "Draft up a technical document and post onto library",
             technologies: ["HTML", "CSS", "JavaScript"],
-            completionDate: "2025-09-01",
+            completionDate: "2026-09-01",
             featured: false
         }
         // TODO: Add more projects during class
@@ -41,7 +43,7 @@ const portfolio = {
     
     // Contact and availability information
     availability: {
-        freelance: false,    // TODO: Set to true if available for freelance work
+        freelance: true,    // TODO: Set to true if available for freelance work
         fullTime: false,     // TODO: Set to true if seeking full-time position
         partTime: true       // TODO: Set to true if available for part-time work
     }
@@ -53,9 +55,9 @@ console.log("Full portfolio object:", portfolio);
 
 // TODO: During class, we'll add more console.log() statements to explore the data
 // Examples students will try:
-// console.log("Owner name:", portfolio.owner.name);
-// console.log("First skill:", portfolio.skills[0]);
-// console.log("Number of projects:", portfolio.projects.length);
+console.log("Owner name:", portfolio.owner.name);
+console.log("First skill:", portfolio.skills[0]);
+console.log("Number of projects:", portfolio.projects.length);
 
 // TODO: Students will learn to access nested properties
 // console.log("Email:", portfolio.owner.email);
